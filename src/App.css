@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(#eeaeca,#94bbe9);
+  background-attachment: fixed;
+}
+.employee-form {
+  background-color: #f7d4e350;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 10px;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.employee-form div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.employee-form label {
+  margin-bottom: 5px;
+  font-size:14px;
+  /* font-weight: bold; */
+}
+
+.employee-form input, .employee-form select {
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.employee-form .error {
+  color: red;
+  font-size: 12px;
+  /* border:solid red 2px; */
+}
+.error-border {
+  border-color: red !important;
+}
+
+.employee-form .error {
+  color: red;
+  font-size: 9px;
+}
+.employee-form button {
+  grid-column: span 3;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:10px 400px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.employee-form button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+  padding:30px;
+}
+.App h1{
+  color:#881044;
+}
+.App h1 span{
+  font-size:40px;
+  COLOR:rgb(0, 102, 255);
 }
