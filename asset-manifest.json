@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/employeeform-using-react-hooks/static/css/main.3ad6ae38.css",
+    "main.js": "/employeeform-using-react-hooks/static/js/main.92bd468a.js",
+    "index.html": "/employeeform-using-react-hooks/index.html",
+    "main.3ad6ae38.css.map": "/employeeform-using-react-hooks/static/css/main.3ad6ae38.css.map",
+    "main.92bd468a.js.map": "/employeeform-using-react-hooks/static/js/main.92bd468a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ad6ae38.css",
+    "static/js/main.92bd468a.js"
+  ]
+}
